@@ -132,3 +132,21 @@ h1 {
   margin-bottom: 5px;
   margin-left: 10px;
 }
+
+.bottom-box {
+  background-color: #252B42;
+}
+
+.bottom-title {
+  color: #FFFFFF;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.bottom-paragraph {
+  font-size: 18px;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px 95px 50px 95px;
+}
