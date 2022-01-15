@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.upper-case {
+  background-image: url(./images/dev.png);
+  height: 90vh;
+}
+
+.header {
+  padding-top: 25px;
+  padding-left: 39px;
+}
+
+.header-title {
+  font-size: 24px;
+  color: #FFFFFF;
+  display: inline;
+  margin-right: 137px;
+}
+
+.header-link {
+  text-decoration: none;
+  font-size: 14px;
+  color: #FFFFFF;
+  display: inline;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 51px;
+  color: #FFFFFF;
+  position: relative;
+  top: 280px;
+  margin-left: 35px;
+}
