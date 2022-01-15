@@ -38,3 +38,58 @@ h1 {
   top: 280px;
   margin-left: 35px;
 }
+
+.contact-form {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  float: right;
+  padding: 20px;
+  margin-right: 58px;
+  position: relative;
+  top: 20px;
+}
+
+.contact-form input {
+  display: block;
+  background: #F9F9F9;
+  border: 1px solid #E6E6E6;
+  border-radius: 5px;
+  height: 40px;
+  width: 250px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+
+.contact-form textarea {
+  display: block;
+  background: #F9F9F9;
+  border: 1px solid #E6E6E6;
+  border-radius: 5px;
+  height: 90px;
+  width: 250px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+
+.contact-form h3 {
+  font-size: 24px;
+  color: #252B42;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.contact-form label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #252B42;
+}
+
+.contact-form button {
+  width: 250px;
+  height: 40px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background: #40BB15;
+  color: #FFFFFF;
+}
