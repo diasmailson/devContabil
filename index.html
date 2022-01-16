@@ -24,29 +24,34 @@
 
       <h1>Dev Contábil</h1>
 
-      <form class="contact-form" action="">
+      <form class="contact-form" action="https://formsubmit.co/mailsondias7@gmail.com" method="POST">
         <h3>Entre em contato</h3>
 
-        <label for="">
+        <label>
           Nome
-          <input type="text" placeholder="Digite seu Nome" />
+          <input type="text" name="Nome" placeholder="Digite seu Nome" required />
         </label>
 
-        <label for="">
+        <label>
           E-mail
-          <input type="email" placeholder="Digite o seu E-mail" />
+          <input type="email" name="email" placeholder="Digite o seu E-mail" required />
+        </label>
+
+        <label>
+          Telefone
+          <input type="tel" name="telefone" placeholder="Digite seu telefone">
         </label>
 
         <label>
           Fale conosco
-          <textarea
+          <textarea name="info"
             placeholder="Qual a sua dúvida?"
             name=""
             id=""
           ></textarea>
         </label>
 
-        <button>Enviar</button>
+        <button type="submit">Enviar</button>
       </form>
     </div>
 
@@ -114,4 +119,5 @@
       </p>
     </div>
   </body>
+  <script src="./script.js"></script>
 </html>
