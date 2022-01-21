@@ -40,7 +40,9 @@ h1 {
   margin-left: 35px;
 }
 
-.contact-form {
+#contact-form {
+  opacity: 0;
+  transition: opacity 1s linear;
   background-color: #FFFFFF;
   border-radius: 10px;
   float: right;
@@ -50,7 +52,18 @@ h1 {
   top: 20px;
 }
 
-.contact-form input {
+#show-formulario {
+  opacity: 1;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  float: right;
+  padding: 20px;
+  margin-right: 58px;
+  position: relative;
+  top: 20px;
+}
+
+input {
   display: block;
   background: #F9F9F9;
   border: 1px solid #E6E6E6;
@@ -61,7 +74,7 @@ h1 {
   padding-left: 10px;
 }
 
-.contact-form textarea {
+textarea {
   display: block;
   background: #F9F9F9;
   border: 1px solid #E6E6E6;
@@ -72,20 +85,20 @@ h1 {
   padding-left: 10px;
 }
 
-.contact-form h3 {
+h3 {
   font-size: 24px;
   color: #252B42;
   margin-bottom: 30px;
   text-align: center;
 }
 
-.contact-form label {
+label {
   font-size: 14px;
   font-weight: 600;
   color: #252B42;
 }
 
-.contact-form button {
+button {
   width: 250px;
   height: 40px;
   cursor: pointer;
