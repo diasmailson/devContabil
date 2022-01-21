@@ -6,7 +6,7 @@
 }
 
 .upper-case {
-  background-image: url(./images/dev.png);
+  background-image: url(/img/dev.png);
   background-size: cover;
   height: 100vh;
 }
