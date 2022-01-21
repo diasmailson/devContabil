@@ -160,7 +160,18 @@ button {
 
 .bottom-paragraph {
   font-size: 18px;
+  font-style: normal;
   color: #FFFFFF;
-  text-align: center;
-  padding: 20px 95px 50px 95px;
+  text-align: justify;
+  padding: 20px 250px 10px 250px;
+  line-height: 20px;
+}
+
+.bottom-paragraph-final {
+  font-size: 18px;
+  font-style: normal;
+  color: #FFFFFF;
+  text-align: justify;
+  padding: 20px 250px 50px 250px;
+  line-height: 20px;
 }
