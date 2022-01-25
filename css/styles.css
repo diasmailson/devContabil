@@ -88,7 +88,7 @@ textarea {
 h3 {
   font-size: 24px;
   color: #252B42;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
@@ -175,3 +175,30 @@ button {
   padding: 20px 250px 50px 250px;
   line-height: 20px;
 }
+
+footer {
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  background: #01233b;
+}
+
+.main-content {
+  display: flex;
+}
+
+.item-footer {
+  flex-basis: 50%;
+	text-align: center;
+  color: #FFFFFF;
+  padding: 50px 0 50px 35px;
+}
+
+.item-footer a {
+  text-decoration: none;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+/*
+
+*/
